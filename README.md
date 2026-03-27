@@ -2,7 +2,7 @@
 
 HyRALLM is a comprehensive framework that enhances Large Language Models (LLMs) for source code summarization tasks using a hybrid retrieval mechanism. It intelligently combines dense (semantic) and sparse (BM25) retrievers to fetch the most relevant code-summary pairs from a database, effectively reducing LLM hallucination and improving generation quality.
 
-## ✨ Features
+##  Features
 
 - **Hybrid Retrieval Pipeline**: Fuses Sparse (BM25) and Dense (Contrastive Learning-based) retrievers to maximize retrieval accuracy.
 - **Support for Major LLMs**: Out-of-the-box integration for OpenAI, Anthropic Claude, and Gemini APIs via automatic format detection.
@@ -10,7 +10,7 @@ HyRALLM is a comprehensive framework that enhances Large Language Models (LLMs) 
 - **Robust Evaluation Suite**: Built-in support for multiple summarization metrics including ROUGE-L, BLEU-4, and dynamically configurable evaluation loops.
 - **Experiment Tracking**: Incremental save functionality to ensure zero data loss during long-running API requests.
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
